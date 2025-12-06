@@ -17,7 +17,7 @@
             --secondary-color: #004080;
             --accent-color: #ff6b35;
             --sidebar-width: 280px;
-            --header-height: 80px;
+            --header-height: 250px;
         }
 
         body {
@@ -34,12 +34,16 @@
             left: var(--sidebar-width);
             right: 0;
             height: var(--header-height);
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            background: linear-gradient(135deg, rgba(0, 51, 102, 0.85) 0%, rgba(0, 64, 128, 0.85) 100%),
+                        url('https://www.concentrix.com/wp-content/uploads/2024/03/hero-what-we-do-scaled.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: white;
             display: flex;
             align-items: center;
             padding: 0 40px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
             z-index: 99;
         }
 
@@ -51,8 +55,9 @@
         }
 
         .header-logo {
-            max-width: 180px;
+            max-width: 250px;
             height: auto;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
         }
 
         .header-text {
@@ -60,13 +65,16 @@
         }
 
         .header-text h1 {
-            font-size: 1.8em;
-            margin-bottom: 5px;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
         .header-text p {
-            font-size: 0.95em;
-            opacity: 0.9;
+            font-size: 1.2em;
+            opacity: 0.95;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
         }
 
         /* Sidebar */
@@ -704,16 +712,218 @@
         <!-- For brevity, I'm including placeholders that you can fill with the existing content -->
 
         <div id="client-needs" class="section">
-            <h2>Understanding of Client Needs</h2>
+            <h2>3. Understanding of Client Needs</h2>
+
             <div class="section-intro">
-                <p>Concentrix has conducted a comprehensive analysis of DirecTV's inbound retention requirements and identified critical business challenges, customer pain points, and strategic opportunities.</p>
+                <p>Concentrix has conducted a comprehensive analysis of DirecTV's inbound retention requirements and identified critical business challenges, customer pain points, and strategic opportunities. Our understanding is informed by 15+ years of specialized experience in telecommunications retention, extensive market research, and proven methodologies for inbound cancellation prevention.</p>
             </div>
-            <!-- Rest of client needs content -->
+
+            <h3>DirecTV's Strategic Retention Challenges</h3>
+
+            <h4>1. Increasing Subscriber Churn</h4>
+            <ul>
+                <li>Competitive pressure from streaming services (Netflix, Hulu, Disney+, YouTube TV)</li>
+                <li>Price sensitivity and promotional offer expirations driving cancellation calls</li>
+                <li>Content availability concerns and channel disputes</li>
+                <li>Customer perception of value relative to streaming alternatives</li>
+            </ul>
+
+            <h4>2. Inbound Cancellation Call Volume</h4>
+            <ul>
+                <li>High volume of inbound cancellation requests requiring specialized handling</li>
+                <li>Need for skilled retention specialists with deep product knowledge</li>
+                <li>Requirement for real-time account visibility and flexible retention offers</li>
+                <li>Necessity of empathetic, consultative approach vs. aggressive sales tactics</li>
+            </ul>
+
+            <h4>3. Revenue Protection & Lifetime Value</h4>
+            <ul>
+                <li>Each lost subscriber represents significant lifetime value erosion</li>
+                <li>High customer acquisition costs make retention economically critical</li>
+                <li>Need to balance retention investment with profitability</li>
+                <li>Importance of retaining high-value, long-tenure customers</li>
+            </ul>
+
+            <h4>4. Customer Experience & Brand Perception</h4>
+            <ul>
+                <li>Cancellation calls are high-stakes brand moments requiring empathy and professionalism</li>
+                <li>Risk of negative reviews and social media complaints from poor cancellation experiences</li>
+                <li>Opportunity to turn cancellation calls into loyalty-building interactions</li>
+                <li>Need to maintain DirecTV's premium brand positioning during retention conversations</li>
+            </ul>
+
+            <h3>Concentrix's Strategic Response</h3>
+
+            <div class="highlight-box">
+                <h4>Our Comprehensive Solution</h4>
+                <p>Concentrix addresses these challenges through a specialized inbound retention program combining:</p>
+                <ul>
+                    <li><strong>Specialized Retention Agents:</strong> Dedicated teams trained exclusively in cancellation prevention, objection handling, and consultative retention techniques</li>
+                    <li><strong>Real-Time Account Intelligence:</strong> Complete visibility into account history, viewing patterns, payment history, and available retention offers</li>
+                    <li><strong>Flexible Retention Toolkit:</strong> Broad authority to deploy pricing adjustments, promotional offers, channel upgrades, and loyalty benefits</li>
+                    <li><strong>Empathetic Customer Engagement:</strong> Consultative, empathy-driven approach focused on understanding customer needs and delivering value-based solutions</li>
+                    <li><strong>Performance-Based Accountability:</strong> Transparent SLAs, real-time reporting, and outcomes-based pricing aligned with DirecTV success</li>
+                </ul>
+            </div>
+
+            <h3>Key Success Metrics</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Industry Benchmark</th>
+                        <th>Concentrix Target</th>
+                        <th>Strategic Importance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Retention Rate (Cancellation Calls)</td>
+                        <td>55-65%</td>
+                        <td>65-75%</td>
+                        <td>Primary revenue protection</td>
+                    </tr>
+                    <tr>
+                        <td>Customer Satisfaction (CSAT)</td>
+                        <td>75-80%</td>
+                        <td>85-90%</td>
+                        <td>Brand protection and NPS</td>
+                    </tr>
+                    <tr>
+                        <td>Average Handle Time</td>
+                        <td>12-15 min</td>
+                        <td>10-12 min</td>
+                        <td>Operational efficiency</td>
+                    </tr>
+                    <tr>
+                        <td>First Call Resolution</td>
+                        <td>85-88%</td>
+                        <td>90-95%</td>
+                        <td>Customer experience</td>
+                    </tr>
+                    <tr>
+                        <td>30-Day Save Stability</td>
+                        <td>85-88%</td>
+                        <td>90-93%</td>
+                        <td>Long-term retention quality</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
         <div id="proposed-solution" class="section">
-            <h2>Proposed Solution & Service Approach</h2>
-            <!-- Content here -->
+            <h2>4. Proposed Solution & Service Approach</h2>
+
+            <div class="section-intro">
+                <p>Concentrix proposes a comprehensive, end-to-end inbound retention solution designed specifically for DirecTV's cancellation prevention needs. Our approach combines specialized retention expertise, proven methodologies, advanced technology, and performance-based accountability to deliver industry-leading retention rates while protecting the DirecTV brand and customer experience.</p>
+            </div>
+
+            <h3>Service Model Overview</h3>
+
+            <h4>1. Specialized Inbound Retention Teams</h4>
+            <p>Dedicated retention specialists trained exclusively in inbound cancellation prevention, with no responsibility for general customer service, technical support, or outbound sales. This specialization ensures deep expertise in retention techniques, objection handling, and consultative engagement.</p>
+
+            <div class="highlight-box">
+                <h4>Agent Profile</h4>
+                <ul>
+                    <li><strong>Selection Criteria:</strong> Customer empathy, active listening, consultative selling skills, resilience, problem-solving ability</li>
+                    <li><strong>Experience:</strong> 2+ years customer service or sales, preferably telecommunications or retention</li>
+                    <li><strong>Training:</strong> 4-week comprehensive program covering DirecTV products, retention techniques, system proficiency, and compliance</li>
+                    <li><strong>Ongoing Development:</strong> Weekly coaching, monthly advanced training, quarterly certification updates</li>
+                </ul>
+            </div>
+
+            <h4>2. Consultative Retention Methodology</h4>
+            <p>Our retention approach prioritizes customer understanding and value delivery over aggressive sales tactics.</p>
+
+            <ol>
+                <li><strong>Empathetic Engagement:</strong> Active listening to understand cancellation drivers without interruption or defensiveness</li>
+                <li><strong>Needs Discovery:</strong> Asking open-ended questions to identify underlying needs, pain points, and value perceptions</li>
+                <li><strong>Value Reframing:</strong> Highlighting relevant DirecTV benefits, exclusive content, and service advantages aligned with customer needs</li>
+                <li><strong>Solution Customization:</strong> Presenting tailored retention offers that address specific customer concerns</li>
+                <li><strong>Objection Resolution:</strong> Addressing remaining concerns with empathy and factual information</li>
+                <li><strong>Commitment Confirmation:</strong> Securing customer commitment and confirming satisfaction with the resolution</li>
+            </ol>
+
+            <h3>Retention Toolkit & Offer Structure</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Retention Strategy</th>
+                        <th>Description</th>
+                        <th>Typical Scenarios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Price Adjustments</td>
+                        <td>Temporary or permanent pricing discounts</td>
+                        <td>Price sensitivity, competitive offers, budget constraints</td>
+                    </tr>
+                    <tr>
+                        <td>Promotional Extensions</td>
+                        <td>Extended promotional pricing or loyalty discounts</td>
+                        <td>Promotional expiration, long-tenure customers</td>
+                    </tr>
+                    <tr>
+                        <td>Channel Upgrades</td>
+                        <td>Complimentary premium channels or package upgrades</td>
+                        <td>Content concerns, competitive feature comparisons</td>
+                    </tr>
+                    <tr>
+                        <td>Equipment Upgrades</td>
+                        <td>Complimentary or discounted equipment (4K, Genie, etc.)</td>
+                        <td>Technology concerns, feature requests</td>
+                    </tr>
+                    <tr>
+                        <td>Service Credits</td>
+                        <td>Account credits for service issues or goodwill</td>
+                        <td>Service complaints, technical problems, goodwill gestures</td>
+                    </tr>
+                    <tr>
+                        <td>Flexible Packages</td>
+                        <td>Custom package configurations or seasonal holds</td>
+                        <td>Seasonal usage, specific channel needs</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Technology Integration</h3>
+
+            <h4>System Requirements</h4>
+            <ul>
+                <li><strong>DirecTV CRM Integration:</strong> Full read/write access to customer accounts, billing history, viewing patterns, and service details</li>
+                <li><strong>Retention Offer Engine:</strong> Real-time eligibility checking and offer deployment system</li>
+                <li><strong>Knowledge Management:</strong> Comprehensive knowledge base with product info, troubleshooting guides, and competitive intelligence</li>
+                <li><strong>Quality Monitoring:</strong> Call recording, screen capture, and AI-powered quality assurance</li>
+                <li><strong>Analytics & Reporting:</strong> Real-time dashboards and comprehensive performance reporting</li>
+            </ul>
+
+            <h3>Service Delivery Model</h3>
+
+            <div class="key-metrics">
+                <div class="metric-card">
+                    <div class="label">Service Hours</div>
+                    <div class="value">24/7/365</div>
+                    <p>Full coverage</p>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Languages</div>
+                    <div class="value">English + Spanish</div>
+                    <p>Bilingual support</p>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Delivery Locations</div>
+                    <div class="value">US-Based</div>
+                    <p>Domestic centers</p>
+                </div>
+                <div class="metric-card">
+                    <div class="label">Ramp Period</div>
+                    <div class="value">60 Days</div>
+                    <p>To full volume</p>
+                </div>
+            </div>
         </div>
 
         <div id="training" class="section">
